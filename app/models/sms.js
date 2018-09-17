@@ -10,7 +10,8 @@ const otpSchema = new Schema({
 
     messageid:{
         type:'String',
-        default:''
+        default:'',
+        unique:'true'
     },
 
     sentTime:{
